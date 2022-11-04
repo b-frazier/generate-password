@@ -10,10 +10,10 @@
     align-items: center;
     height: 300px;
     width: 500px;
-    background-color: whitesmoke;
+    background-color: #E8D9C8;
     margin: 50px auto;
     border-radius: 15px;
-    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px rgb(116, 116, 116, .75);
 }
 
 .container h2 {
@@ -23,14 +23,19 @@
 fieldset {
     width: 200px;
     height: 25px;
+    border: none;
     border-radius: 5px;
+    background-color: #A3B49B;
     margin-top: 30px;
 }
 
 button {
-    margin: 15px 0;
+    margin: 20px 0;
     padding: 5px;
     height: 40px;
     width: 90px;
     font-size: 16px;
+    background-color: #C1AD95;
+    border: .5px solid #9B8A77;
+    border-radius: 5px;
 }
