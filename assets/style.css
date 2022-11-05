@@ -30,7 +30,7 @@ fieldset {
 }
 
 button {
-    margin: 30px 0;
+    margin: 30px 8px;
     padding: 5px;
     height: 40px;
     width: 90px;
@@ -38,4 +38,8 @@ button {
     background-color: #C1AD95;
     border: .5px solid #9B8A77;
     border-radius: 5px;
+}
+
+button#copy {
+    display:inline;
 }
