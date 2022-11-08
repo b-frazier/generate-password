@@ -19,6 +19,14 @@
                 <input type="number" id="length" value="8" min="8" max="128"/>  
             </div>  
             <div class="settings-opt">
+                <label for="lower">Include Lowercase</label>
+                <input type="checkbox" id="lower" checked/>
+            </div>
+            <div class="settings-opt">
+                <label for="upper">Include Uppercase</label>
+                <input type="checkbox" id="upper" checked/>
+            </div>
+            <div class="settings-opt">
                 <label for="numbers">Include Numbers</label>
                 <input type="checkbox" id="numbers" checked/>
             </div>
@@ -29,8 +37,8 @@
         </div>
         <p id="password"></p>
         <div class="buttons">
-            <button id="generate" class="btn">START</button>
-            <button id="copy" class="btn">COPY</button>
+            <button type="button" id="generate" class="btn">START</button>
+            <button type="button" id="copy" class="btn">COPY</button>
         </div>
     </div>
     <script src="assets/script.js"></script>
