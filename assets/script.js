@@ -8,14 +8,6 @@ const incLower = document.getElementById('lower');
 const generateBtn = document.getElementById('generate');
 const copy = document.getElementById('copy');
 
-// this is an object
-const randomFunc = {
-    lower: randomLower,
-    upper: randomUpper,
-    number: randomNumber,
-    symbol: randomSymbol
-};
-
 // click event to generate password
 generateBtn.addEventListener('click', () => {
     const length = +lengthEL.value;
