@@ -1,7 +1,6 @@
 * {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    /* font-family: 'Noto Sans Mono', monospace; */
 }
 
 .container {
@@ -43,6 +42,7 @@ p#password {
     margin-top: 30px;
     text-align: center;
     font-size: 18px;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 p#copyMsg {
