@@ -6,7 +6,23 @@ const incSym = document.getElementById('symbols');
 const incUpper = document.getElementById('upper');
 const incLower = document.getElementById('lower');
 const generateBtn = document.getElementById('generate');
-const copy = document.getElementById('copy');
+const copyPass = document.getElementById('copy');
+const copyMsg = document.getElementById('copyMsg');
+
+// copy password
+copyPass.addEventListener('click', () => {
+    const textarea = document.createElement('textarea');
+    const result = password.innerText;
+
+    if (!result) {return;}
+   
+    textarea.value = result;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    textarea.remove();
+    copyMsg.innerHTML = "Password copied!"
+});
 
 // click event to generate password
 generateBtn.addEventListener('click', () => {
