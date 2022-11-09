@@ -35,6 +35,10 @@ generateBtn.addEventListener('click', () => {
     const hasLower = incLower.checked;
 
     password.innerText = generatePassword(hasNumber, hasSymbol, hasUpper, hasLower, length);
+
+    if (copyMsg) {
+        copyMsg.innerHTML = ""
+    };
 });
 
 // password generate function
