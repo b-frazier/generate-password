@@ -6,6 +6,8 @@ The password will contain a combination of special characters, numbers, capital 
 
 <img src="assets/images/final-image.png" width="650">
 
+https://b-frazier.github.io/generate-password/
+
 We were given the code for this project but I wanted to learn to do it from scratch. I found alternative ways to generate random letters, numbers and symbols through online resources and tutorials.
 
 I really like how this turned out and was worth the extra effort. I would like to find a way to make the "Password copied!" message disappear if a new password is generated.
