@@ -21,7 +21,9 @@ copyPass.addEventListener('click', () => {
     textarea.select();
     document.execCommand('copy');
     textarea.remove();
-    copyMsg.innerHTML = "Password copied!"
+    message = setTimeout(function(){
+        copyMsg.innerHTML = "Password copied!"
+    }, 250);
 });
 
 // click event to generate password
