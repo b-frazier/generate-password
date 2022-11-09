@@ -41,6 +41,8 @@ p {
     border-radius: 5px;
     background-color: #A3B49B;
     margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
 }
 
 button {
